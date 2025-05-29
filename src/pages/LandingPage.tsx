@@ -385,7 +385,7 @@ const LandingPage = () => {
               asChild 
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-lavender-700 px-10 py-4 text-lg font-medium"
+              className="bg-white text-lavender-700 hover:bg-gray-50 px-10 py-4 text-lg font-medium"
             >
               <Link to="/gallery" className="flex items-center gap-2">
                 <Globe className="w-5 h-5" />
