@@ -18,6 +18,9 @@ import Auth from "./pages/Auth";
 import Dashboard from "./pages/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Footer from './components/Footer';
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfService from "./pages/TermsOfService";
+import Help from "./pages/Help";
 
 const queryClient = new QueryClient();
 
@@ -57,6 +60,9 @@ const App = () => (
                   </ProtectedRoute>
                 } />
                 <Route path="*" element={<NotFound />} />
+                <Route path="/privacy" element={<PrivacyPolicy />} />
+                <Route path="/terms" element={<TermsOfService />} />
+                <Route path="/help" element={<Help />} />
               </Routes>
               <Footer />
             </div>
