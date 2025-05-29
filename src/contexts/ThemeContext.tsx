@@ -28,8 +28,8 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
       setTheme(savedTheme);
     } else {
       // Check system preference
-      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      setTheme(systemTheme);
+      //const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      setTheme('light');
     }
   }, []);
 
