@@ -22,8 +22,8 @@ const Help = () => {
       <h2 className="text-xl font-semibold mt-6 mb-2">Need further help?</h2>
       <p className="mb-4">
         Reach out to our support team at{" "}
-        <a href="mailto:support@locktheday.app" className="text-lavender-600 hover:underline">
-          support@locktheday.app
+        <a href="mailto:support@locktheday.com" className="text-lavender-600 hover:underline">
+          support@locktheday.com
         </a>.
       </p>
     </div>
